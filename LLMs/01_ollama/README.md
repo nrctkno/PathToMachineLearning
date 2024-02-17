@@ -33,13 +33,13 @@ Once installed and started, we can:
     As they frolic and laugh, so bold.
     ```
 
-2. Use it via the API OLlama exposes: not a funny interface to play around without having to create a UI.
-```
-curl -X POST http://localhost:11434/api/generate -d '{
-  "model": "llama2",
-  "prompt":"Why is the sky blue?"
- }'
-```
+2. Use it via the API OLlama exposes: not a funny way to play around without having to create a UI.
+    ```
+    curl -X POST http://localhost:11434/api/generate -d '{
+    "model": "llama2",
+    "prompt":"Why is the sky blue?"
+    }'
+    ```
 
 ## Related resources
 
