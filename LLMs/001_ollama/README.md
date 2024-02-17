@@ -1,10 +1,10 @@
-# Ollama
+# 🦙 Ollama
 
-## Intro
+## 🏁 Intro
 
 Let's start easy.
 
-https://ollama.com/ download Ollama, which enables us to download and use many models in a docker-like environment.
+Download ollama from https://ollama.com/, which enables us to download and use many models in a docker-like environment.
 
 Now we can download any of the models available at https://ollama.com/library . We'll use [llama2](https://ollama.com/library/llama2) as example:
 
@@ -33,7 +33,7 @@ Once installed and started, we can:
     As they frolic and laugh, so bold.
     ```
 
-2. Use it via the API Ollama exposes: not a funny way to play around without having to create a UI.
+2. Use it via the API ollama exposes: not a funny way to play around without having to create a UI.
     ```sh
     curl -X POST http://localhost:11434/api/generate -d '{
     "model": "llama2",
@@ -42,7 +42,7 @@ Once installed and started, we can:
     ```
 
 
-## Let's create a new model
+## 🧑‍💻 Let's create a new model
 
 In `001_ollama_model_file_example` we have an example of a model file. We can use it to create a new model.
 
@@ -75,6 +75,10 @@ engineer, I understand that time is precious, and you should prioritize using it
 ```
 
 
-## Related resources
+## 📚 Related resources
 
 [I Analyzed My Finance With Local LLMs (Thu Vu data analytics)](https://www.youtube.com/watch?v=h_GTxRFYETY)
+
+[ollama modelfile syntax](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
+
+[ollama home](https://ollama.com/)
